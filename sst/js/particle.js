@@ -1,18 +1,23 @@
 // ParticlesJS Config.
+// Diedit dan dikembangkan oleh FaishalNafi' untuk Acaa.
+// CopyRight Thn 2024.
+
 particlesJS("particles-js", {
+
+  // Merubah tampilan shape;
   "particles": {
     "number": {
-      "value": 80,
+      "value": 80, // Jumlah Shape;
       "density": {
         "enable": true,
         "value_area": 1000
       }
     },
     "color": {
-      "value": "#ffffff"
+      "value": "#ffffff" // Merubah warna;
     },
     "shape": {
-      "type": "star",
+      "type": "star", // Merubah Shape;
       "stroke": {
         "width": 0,
         "color": "#000000"
@@ -32,27 +37,27 @@ particlesJS("particles-js", {
       }
     },
     "size": {
-      "value": 4,
-      "random": true,
+      "value": 4, // Ukuran Shape;
+      "random": true, // Berukuran sama ganti false;
       "anim": {
-        "enable": true,
-        "speed": 25,
+        "enable": true, // Membuat tidak berkedip fanti false;
+        "speed": 25, // Kecepatan kedipan;
         "size_min": 0.1,
-        "sync": false
+        "sync": false // kedip bersamaan, biarkan false untuk kedip random;
       }
     },
     "line_linked": {
-      "enable": true,
+      "enable": false, // Ubah true bila ingin menampilkan garis rasi bintang;
       "distance": 150,
-      "color": "#ffffff",
-      "opacity": 0,
-      "width": 0.5
+      "color": "#ffffff", // Merubah warna rasi;
+      "opacity": 1, // Kecerahan garis rasi, 0 untuk menghilangkan;
+      "width": 0.5 // Ketebalan garis rasi;
     },
     "move": {
-      "enable": true,
-      "speed": 10,
+      "enable": true, // Ubah true untuk moving objek;
+      "speed": 10, // Kecepatan Moving;
       "direction": "none",
-      "random": false,
+      "random": true, // Bergerak secara random;
       "straight": false,
       "out_mode": "out",
       "bounce": false,
@@ -63,6 +68,8 @@ particlesJS("particles-js", {
       }
     }
   },
+
+  // Biarkan secara default;
   "interactivity": {
     "detect_on": "canvas",
     "events": {
